@@ -1,0 +1,34 @@
+.main {
+  min-height: 100vh;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: auto;
+  padding: 0.5rem 1rem;
+  background-color: rgba(2, 119, 189, 1);
+  color: rgba(255, 255, 255, 1);
+
+  .menu-icon {
+    margin-right: 1rem;
+  }
+
+  .search-icon {
+    margin-right: 2rem;
+  }
+}
+
+.navbar-title {
+  font-size: 19px;
+  font-weight: 500;
+  margin-right: auto;
+}
